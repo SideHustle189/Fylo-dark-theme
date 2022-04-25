@@ -26,11 +26,12 @@
 
 html, body{
   overflow-x: hidden;
+  font-size: 14px;
 }
 
 body {
   font-family: Raleway;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   background: hsl(218, 28%, 13%);
   position: relative;
   overflow-x: hidden;
@@ -71,7 +72,7 @@ img {
 }
 
 p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   letter-spacing: 1px;
@@ -89,10 +90,11 @@ p {
   background: hsl(198, 60%, 50%);
   color: #fff;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn.white {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   color: #444;
 }
 
@@ -118,7 +120,7 @@ p {
 .header h2 {
   font-size: 35px;
   font-family: Raleway3;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .header ul li a {
@@ -166,7 +168,7 @@ p {
 
 .showcase h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .showcase p {
@@ -243,6 +245,7 @@ p {
   letter-spacing: 1px;
   padding-bottom: 10px;
   color: hsl(198, 60%, 50%);
+  transition: all 0.5s ease-in-out;
 }
 
 .productive a img {
@@ -254,6 +257,7 @@ p {
   color: #444;
   background: hsl(198, 60%, 50%);
   border-radius: 50%;
+  transition: all 0.5s ease-in-out;
 }
 
 
@@ -404,6 +408,7 @@ border-color: #fff;
   padding: 15px 40px;
   height: 50px;
   background: hsl(198, 94%, 66%);
+  transition: all 0.5s ease-in-out;
 }
 
 .call-to-action .input-box button.btn:hover {
@@ -420,10 +425,7 @@ background: hsl(198, 97%, 77%)
   margin-top: 130px;
   position: relative;
 }
-.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
-color: hsl(198, 94%, 66%);  
-border: 1px solid hsl(198, 94%, 66%) ;
-}
+
 .footer h2 {
   font-size: 35px;
   font-family: Raleway3;
@@ -493,6 +495,23 @@ border: 1px solid hsl(198, 94%, 66%) ;
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {  
+border: 1px solid hsl(198, 94%, 66%) ;
+}
+
+.fa-facebook:hover{
+  color: #3b5998;
+}
+
+.fa-twiiter:hover{
+   color: #55acee;
+}
+
+.fa-instagram:hover{
+   color: #3f729b;
 }
 
 .footer .footer-inner .footer-bottom .footer-socials i:nth-child(1) {
