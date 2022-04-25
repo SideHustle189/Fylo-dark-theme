@@ -126,7 +126,8 @@ p {
 .header ul li a {
   opacity: 0.7;
   letter-spacing: 1px;
-  transition: opacity 0.5s linear;
+  transition: all 0.5s linear;
+  padding-bottom: 5px;
 }
 
 .header ul li a:hover {
