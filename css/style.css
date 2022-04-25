@@ -412,7 +412,8 @@ border-color: #fff;
 }
 
 .call-to-action .input-box button.btn:hover {
-background: hsl(198, 97%, 77%)
+  background: hsl(198, 97%, 77%);
+  color: #f4f4f4;
 }
 
 /*==============================================================================================
@@ -502,11 +503,11 @@ background: hsl(198, 97%, 77%)
 border: 1px solid hsl(198, 94%, 66%) ;
 }
 
-.fa-facebook:hover{
+.fa-facebook-f:hover{
   color: #3b5998;
 }
 
-.fa-twiiter:hover{
+.fa-twitter:hover{
    color: #55acee;
 }
 
